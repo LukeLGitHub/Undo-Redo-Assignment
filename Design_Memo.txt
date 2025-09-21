@@ -11,6 +11,7 @@ pop the latest action to undo it, and store it on a redo stack if needed.
 It is just like standing in a phsyical line at a fast food restaurant, 
 customers are helped in the order that they arrive, so the first person in line gets helped first.
 Any new customers added are added to the back of the line, and helping a customer removes them from the front.
-My stack and queue are a bit different from Python's built in lists. Lists can act like stacks or queues, 
+3. My stack and queue are a bit different from Python's built in lists. Lists can act like stacks or queues, 
 but doing things like removing the first item of a list can be slow. Using the Node-based implementation, 
 adding or removing items is faster and works how a stack or queue is supposed to.
+
